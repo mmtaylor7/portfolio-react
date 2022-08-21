@@ -5,18 +5,13 @@ import Contact from "./pages/Contact/Contact";
 import Resume from "./pages/Resume/Resume";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Header from "./components/Header/Header";
+import NavBar from "./components/NavBar/NavBar.js";
 
 function App() {
   return (
     <div className="App">
       <Header />
-
-      {/* <nav>
-        <Link to="/">About</Link>
-        <Link to="/portfolio">portfolio</Link>
-        <Link to="/contact">contact</Link>
-        <Link to="/resume">resume</Link>
-      </nav> */}
+      <NavBar />
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
