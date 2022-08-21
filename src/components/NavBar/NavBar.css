@@ -40,3 +40,9 @@
 .hoverable:focus {
   transform: translateY(-5px);
 }
+.hoverable:hover:before,
+.hoverable:active:before,
+.hoverable:focus:before {
+  opacity: 1;
+  transform: translateY(-5px);
+}
