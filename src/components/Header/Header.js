@@ -1,5 +1,6 @@
 import "../Header/Header.css";
+import React from "react";
 
 export default function Header() {
-  return <div class="headerName">Mary Margaret Taylor</div>;
+  return <div className="headerName">Mary Margaret Taylor</div>;
 }

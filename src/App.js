@@ -1,5 +1,7 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
+import "bootstrap";
+import "react-bootstrap";
 import AboutMe from "./pages/AboutMe/AboutMe";
 import Contact from "./pages/Contact/Contact";
 import Resume from "./pages/Resume/Resume";
