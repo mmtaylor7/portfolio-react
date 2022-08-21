@@ -5,13 +5,13 @@ import { Routes, Route, Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <div>
-      <span>
+    <div className="navSpacing">
+      <div>
         <Link to="/" className="navBarFont" style={{ textDecoration: "none" }}>
           About Me
         </Link>
-      </span>
-      <span>
+      </div>
+      <div>
         <Link
           to="/portfolio"
           className="navBarFont"
@@ -19,8 +19,8 @@ export default function NavBar() {
         >
           Portfolio
         </Link>
-      </span>
-      <span>
+      </div>
+      <div>
         <Link
           to="/contact"
           className="navBarFont"
@@ -28,8 +28,8 @@ export default function NavBar() {
         >
           Contact
         </Link>
-      </span>
-      <span>
+      </div>
+      <div>
         <Link
           to="/resume"
           className="navBarFont"
@@ -37,7 +37,7 @@ export default function NavBar() {
         >
           Resume
         </Link>
-      </span>
+      </div>
     </div>
   );
 }
