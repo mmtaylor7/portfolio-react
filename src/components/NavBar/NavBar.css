@@ -5,9 +5,10 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: #fefef2;
 }
 .navBarFont {
-  margin: 23px 23px 23px 23px;
+  margin: 24px 24px 24px 24px;
   font-family: "Bungee", cursive;
   font-size: 35px;
   color: #fe4a49;
