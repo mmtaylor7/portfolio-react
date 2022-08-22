@@ -1,4 +1,5 @@
 .body-bg {
   background-image: url("./assets/flower-bg.jpg");
   background-size: contain;
+  opacity: 0.9;
 }

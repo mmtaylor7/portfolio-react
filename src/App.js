@@ -8,6 +8,7 @@ import Resume from "./pages/Resume/Resume";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar.js";
+import Footer from "./components/Footer/Footer.js";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
