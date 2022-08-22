@@ -1,12 +1,15 @@
 .footer-style {
-  background-color: #4f9952;
+  background-color: #b061e2;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .footer-text {
   color: #fefef2;
   margin: 10px, 10px, 10px, 10px;
+  font-size: 40px;
 }

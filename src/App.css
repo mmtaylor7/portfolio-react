@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  background-image: url("../src/pages/assets/flower-bg.jpg");
+}
