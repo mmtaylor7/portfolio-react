@@ -1,5 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom";
-import "../Bg.css";
+
+import "./AboutMe.css";
 
 function AboutMe() {
   return (
