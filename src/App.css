@@ -2,6 +2,8 @@
   text-align: center;
   background-image: url("../src/pages/assets/flower-bg.jpg");
   background-size: contain;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {

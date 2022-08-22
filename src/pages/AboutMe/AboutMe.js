@@ -4,7 +4,7 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return (
-    <div className="container body-size">
+    <div className="container ">
       <span>This is my about me page</span>
       {/* <nav>
         <Link to="/about">About</Link>
