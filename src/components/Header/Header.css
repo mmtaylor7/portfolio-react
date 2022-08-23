@@ -3,9 +3,11 @@
 .headerName {
   font-family: "Bungee", cursive;
   font-size: 75px;
-  margin-top: 15px;
   color: #b061e2;
   margin-left: 20%;
   margin-right: 20%;
   background-color: #fefef2;
+  border-bottom: #b061e2;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
 }

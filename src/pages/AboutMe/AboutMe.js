@@ -5,7 +5,14 @@ import "./AboutMe.css";
 function AboutMe() {
   return (
     <div className="container ">
-      <span>This is my about me page</span>
+      <div>
+        <div></div>
+        <div>
+          <div>
+            <div></div>
+          </div>
+        </div>
+      </div>
       {/* <nav>
         <Link to="/about">About</Link>
       </nav> */}
