@@ -1,1 +1,11 @@
+.body-div {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.page-title {
+  font-family: "Bungee", cursive;
+  font-size: 75px;
+  color: #398d3f;
+  background-color: #fefef2;
+}
