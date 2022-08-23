@@ -1,11 +1,20 @@
 .body-div {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+}
+
+.headshot {
+  max-width: 100%;
+  height: auto;
 }
 
 .page-title {
   font-family: "Bungee", cursive;
   font-size: 75px;
   color: #398d3f;
-  background-color: #fefef2;
+  /* background-color: #fefef2; */
+  background: #fefef2, 0.5;
+}
+
+.about-text {
 }
