@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "../Portfolio/Portfolio.css";
-
+import { Button, Col, Row } from "react-bootstrap";
 import {
   MDBCard,
   MDBCardBody,
@@ -12,7 +12,7 @@ import {
   MDBRipple,
 } from "mdb-react-ui-kit";
 
-export default function App() {
+function Portfolio() {
   return (
     <MDBCard>
       <MDBRipple
@@ -43,3 +43,5 @@ export default function App() {
     </MDBCard>
   );
 }
+
+export default Portfolio;
