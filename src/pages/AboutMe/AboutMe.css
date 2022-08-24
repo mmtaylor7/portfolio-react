@@ -11,10 +11,11 @@
 .page-title {
   font-family: "Bungee", cursive;
   font-size: 75px;
-  color: #398d3f;
+  color: #b061e2;
   /* background-color: #fefef2; */
   background: #fefef2;
 }
 
 .about-text {
+  background: #fefef2;
 }
