@@ -11,6 +11,9 @@
   color: #faaa1c;
   /* background-color: #fefef2; */
   background-color: #fefef2d0;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 8px;
 }
 
 .form-titles {
