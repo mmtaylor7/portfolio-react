@@ -11,4 +11,7 @@
   font-size: 25px;
   color: #fefef2;
   background-color: rgb(85, 184, 91);
+  border-style: solid;
+  border-color: rgb(85, 184, 91);
+  border-radius: 5px;
 }
