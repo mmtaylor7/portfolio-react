@@ -23,10 +23,11 @@
   /* background-color: #fefef2; */
   /* background-color: #fefef2d0; */
   border-style: solid;
-  border-color: transparent;
+  border-color: #024d3e;
   border-radius: 5px;
   text-align: left;
   margin-top: 17px;
+  padding: 3px;
 }
 
 .button-flex {
