@@ -25,10 +25,14 @@ function AboutMe() {
           <Row sm={12}>
             <div className="about-text">
               <div className="about-text">
-                Lorem Ipsum asdkl;fjh askldjfh asdkjhefu djhlasd cat dog fish
-                elephant tiger mouse rat squirrel dog daisy tulip hydrangea bla
-                blah blah sarah sam mary margaret jim sally bryan mary doug
-                jimmy jack margot sydney michael campbell.
+                Welcome to my page! I'm so glad you're here! My name is Mary
+                Margaret Taylor, and I am an emerging web developer. In 2022, I
+                left the world of teaching to dive into coding- and I'm loving
+                it! I have experience in building front end, back end and full
+                stack applications through the Georgia Tech Full Stack Coding
+                Bootcamp. I am continuing to learn and develop my skills with
+                the eventual goal of integrating the education and coding
+                arenas. Please take a look around, and enjoy!
               </div>
               <div></div>
             </div>
