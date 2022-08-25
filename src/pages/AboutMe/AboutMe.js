@@ -21,7 +21,6 @@ function AboutMe() {
               <div className="page-title">About Me</div>
               <div></div>
             </div>
-            30
           </Row>
           <Row sm={12}>
             <div className="about-text">
@@ -33,7 +32,7 @@ function AboutMe() {
                 stack applications through the Georgia Tech Full Stack Coding
                 Bootcamp. I am continuing to learn and develop my skills with
                 the eventual goal of integrating the education and coding
-                arenas. Please take a look around, and enjoy!
+                arenas. Please take a look around my page and enjoy!
               </div>
               <div></div>
             </div>
