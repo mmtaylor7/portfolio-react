@@ -21,6 +21,7 @@ function AboutMe() {
               <div className="page-title">About Me</div>
               <div></div>
             </div>
+            30
           </Row>
           <Row sm={12}>
             <div className="about-text">

@@ -18,7 +18,7 @@
 
 .form-titles {
   font-family: "Bungee", cursive;
-  font-size: 25px;
+  font-size: 30px;
   color: #024d3e;
   /* background-color: #fefef2; */
   /* background-color: #fefef2d0; */
@@ -26,20 +26,35 @@
   border-color: transparent;
   border-radius: 5px;
   text-align: left;
-  margin-top: 6px;
+  margin-top: 17px;
 }
 
+.button-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .submit-button {
-  background-color: #3a8e3d;
+  background-color: #024d3e;
   color: #fefef2;
   font-family: "Bungee", cursive;
-  font-size: 25px;
+  font-size: 35px;
   border-style: solid;
   border-color: #3a8e3d;
   border-radius: 5px;
-  margin-top: 9px;
+  margin-top: 13px;
 }
 
 .submit-button:hover {
-  background-color: #024d3e;
+  background-color: #3a8e3d;
+}
+
+.input-size {
+  height: 50px;
+  font-size: 27px;
+  color: #024d3e;
+}
+
+.msg-font-size {
+  font-size: 20px;
 }
