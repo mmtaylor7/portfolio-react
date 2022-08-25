@@ -24,6 +24,11 @@ class SimpleForm extends Component {
             <Form.Control as="textarea" rows={3} />
           </Form.Group>
         </Form>
+        <div className="d-grid gap-2 ">
+          <Button variant="primary" size="lg">
+            Submit Message
+          </Button>
+        </div>
       </Container>
     );
   }
