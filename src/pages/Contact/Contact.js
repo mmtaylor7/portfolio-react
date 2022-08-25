@@ -10,7 +10,7 @@ class SimpleForm extends Component {
     return (
       <Container>
         <div className="contact-me">Contact Me</div>
-        <Form>
+        <Form className="form-bg">
           <Form.Group controlId="form.Name">
             <Form.Label className="form-titles">Name</Form.Label>
             <Form.Control type="text" placeholder="Enter name" />
@@ -25,7 +25,7 @@ class SimpleForm extends Component {
           </Form.Group>
         </Form>
         <div className="d-grid gap-2 ">
-          <Button variant="primary" size="lg">
+          <Button className="submit-button" size="lg">
             Submit Message
           </Button>
         </div>

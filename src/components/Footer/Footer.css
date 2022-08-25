@@ -7,7 +7,7 @@
 }
 
 .footer-style {
-  background-color: #b061e2;
+  background-color: #3a8e3d;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -17,10 +17,10 @@
 .footer-text {
   color: #fefef2;
   margin: 10px 10px 10px 10px;
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Bungee", cursive;
 }
 
 .footer-text:hover {
-  color: #3d214f;
+  color: #024b3d;
 }

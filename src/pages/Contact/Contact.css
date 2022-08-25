@@ -1,17 +1,42 @@
+.form-bg {
+  background-color: #fefef2d0;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 8px;
+}
+
 .contact-me {
   font-family: "Bungee", cursive;
   font-size: 75px;
-  color: #b061e2;
+  color: #faaa1c;
   /* background-color: #fefef2; */
-  background: #fefef2a1;
+  /* background-color: #fefef2d0; */
 }
 
 .form-titles {
   font-family: "Bungee", cursive;
   font-size: 25px;
-  color: #fefef2;
-  background-color: rgb(85, 184, 91);
+  color: #024d3e;
+  /* background-color: #fefef2; */
+  /* background-color: #fefef2d0; */
   border-style: solid;
-  border-color: rgb(85, 184, 91);
+  border-color: transparent;
   border-radius: 5px;
+  text-align: left;
+  margin-top: 6px;
+}
+
+.submit-button {
+  background-color: #3a8e3d;
+  color: #fefef2;
+  font-family: "Bungee", cursive;
+  font-size: 25px;
+  border-style: solid;
+  border-color: #3a8e3d;
+  border-radius: 5px;
+  margin-top: 9px;
+}
+
+.submit-button:hover {
+  background-color: #024d3e;
 }

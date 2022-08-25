@@ -7,7 +7,7 @@
   align-items: center;
   margin-left: 20%;
   margin-right: 20%;
-  background-color: #fefef2;
+  background-color: #fefef2b6;
   padding-bottom: 10px;
 }
 .navBarFont {
@@ -18,7 +18,7 @@
 }
 
 .navBarFont:hover {
-  color: #7e43a2;
+  color: #942828;
 }
 
 /* #fefef2; */
