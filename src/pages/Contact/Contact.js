@@ -34,7 +34,7 @@ class SimpleForm extends Component {
         </Form>
         <div className="d-grid gap-2 button-flex">
           <Button className="submit-button" size="lg">
-            Submit Message
+            Send Message
           </Button>
         </div>
       </Container>
