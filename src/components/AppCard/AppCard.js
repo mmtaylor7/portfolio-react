@@ -30,10 +30,16 @@ export default function AppCard() {
       </a>
       {/* </MDBRipple> */}
       <MDBCardBody>
-        <MDBCardTitle>App title</MDBCardTitle>
-        <MDBCardText>description of the app</MDBCardText>
-        <MDBBtn href="#">Website</MDBBtn>
-        <MDBBtn href="#">GitHub</MDBBtn>
+        <MDBCardTitle className="app-title">App title</MDBCardTitle>
+        <MDBCardText className="app-description">
+          description of the app
+        </MDBCardText>
+        <MDBBtn href="#" className="project-buttons">
+          Website
+        </MDBBtn>
+        <MDBBtn href="#" className="project-buttons">
+          GitHub
+        </MDBBtn>
       </MDBCardBody>
     </MDBCard>
   );

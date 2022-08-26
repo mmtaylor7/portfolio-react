@@ -19,17 +19,6 @@ function Portfolio() {
           <AppCard></AppCard>
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <AppCard></AppCard>
-        </Col>
-        <Col>
-          <AppCard></AppCard>
-        </Col>
-        <Col>
-          <AppCard></AppCard>
-        </Col>
-      </Row>
     </div>
   );
 }

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Signika+Negative:wght@700&display=swap");
+
 .app-card {
   width: 25vw;
   background-color: #fefef2c6;
@@ -8,4 +10,31 @@
   /* border-width: 8px;  */
   padding: 25px;
   margin: 5px 5px 5px 5px;
+}
+
+.app-title {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 38px;
+  color: #024d3e;
+}
+
+.app-description {
+}
+
+.project-buttons {
+  background-color: #024d3e;
+  color: #fefef2;
+  font-family: "Bungee", cursive;
+  font-size: 25px;
+  border-style: solid;
+  border-color: #3a8e3d;
+  border-radius: 5px;
+  margin-top: 13px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.project-buttons:hover {
+  background-color: #3a8e3d;
 }
