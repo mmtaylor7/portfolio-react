@@ -10,15 +10,13 @@ function Portfolio() {
     <div>
       <div className="page-title">Portfolio</div>
       <Row>
-        <Col>
-          <AppCard></AppCard>
-        </Col>
-        <Col>
-          <AppCard></AppCard>
-        </Col>
-        <Col>
-          <AppCard></AppCard>
-        </Col>
+        {projects.map((project) => {
+          return (
+            <Col>
+              <AppCard project={project}></AppCard>
+            </Col>
+          );
+        })}
       </Row>
     </div>
   );

@@ -9,7 +9,19 @@ import {
   MDBBtn,
 } from "mdb-react-ui-kit";
 
-export default function AppCard() {
+// {
+//   project: {
+//     id: 1,
+//     image: doomsday,
+//     projectTitle: "Doomsday Tracker",
+//     description:
+//       "An end-of-the-world themed tracker that follows natural disaster data, COVID-19 data and global warming data",
+//     github: "https://github.com/mmtaylor7/Doomsday_Tracker",
+//     website: "https://mmtaylor7.github.io/Doomsday_Tracker/",
+//   };
+// }
+
+export default function AppCard(props) {
   return (
     <MDBCard className="app-card">
       {/* <MDBRipple
@@ -17,11 +29,7 @@ export default function AppCard() {
         rippleTag="div"
         className="bg-image hover-overlay"
       > */}
-      <MDBCardImage
-        src="https://mdbootstrap.com/img/new/standard/nature/111.webp"
-        fluid
-        alt="..."
-      />
+      <MDBCardImage src={props.project.image} fluid alt="..." />
       <a>
         <div
           className="mask"
@@ -30,14 +38,16 @@ export default function AppCard() {
       </a>
       {/* </MDBRipple> */}
       <MDBCardBody>
-        <MDBCardTitle className="app-title">App title</MDBCardTitle>
+        <MDBCardTitle className="app-title">
+          {props.project.projectTitle}
+        </MDBCardTitle>
         <MDBCardText className="app-description">
-          description of the app
+          {props.project.description}
         </MDBCardText>
-        <MDBBtn href="#" className="project-buttons">
+        <MDBBtn href={props.project.website} className="project-buttons">
           Website
         </MDBBtn>
-        <MDBBtn href="#" className="project-buttons">
+        <MDBBtn href={props.project.github} className="project-buttons">
           GitHub
         </MDBBtn>
       </MDBCardBody>
