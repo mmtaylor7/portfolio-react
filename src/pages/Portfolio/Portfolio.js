@@ -6,7 +6,7 @@ import { Row, Col } from "react-bootstrap";
 
 function Portfolio() {
   return (
-    <div className="portfolio-card-container">
+    <div>
       <Row>
         <Col>
           <AppCard></AppCard>

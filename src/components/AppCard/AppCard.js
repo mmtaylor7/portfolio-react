@@ -31,11 +31,8 @@ export default function AppCard() {
       </a>
       {/* </MDBRipple> */}
       <MDBCardBody>
-        <MDBCardTitle>Card title</MDBCardTitle>
-        <MDBCardText>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </MDBCardText>
+        <MDBCardTitle>App title</MDBCardTitle>
+        <MDBCardText>description of the app</MDBCardText>
         <MDBBtn href="#">Button</MDBBtn>
       </MDBCardBody>
     </MDBCard>
