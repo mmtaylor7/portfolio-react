@@ -1,6 +1,6 @@
-import doomsday from "./src/pages/assets/doomsday.png";
-import dose from "./src/pages/assets/dose.png";
-import weather from "./src/pages/assets/weather.png";
+import doomsday from "./pages/assets/doomsday.png";
+import dose from "./pages/assets/doomsday.pngdose.png";
+import weather from "./pages/assets/weather.png";
 
 const projects = [
   {
