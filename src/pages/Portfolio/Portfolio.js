@@ -7,6 +7,7 @@ import { Row, Col } from "react-bootstrap";
 function Portfolio() {
   return (
     <div>
+      <div className="page-title">Portfolio</div>
       <Row>
         <Col>
           <AppCard></AppCard>
