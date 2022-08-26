@@ -1,7 +1,11 @@
+import doomsday from "./src/pages/assets/doomsday.png";
+import dose from "./src/pages/assets/dose.png";
+import weather from "./src/pages/assets/weather.png";
+
 const projects = [
   {
     id: 1,
-    image: lkjhlkjhkl,
+    image: doomsday,
     projectTitle: "Doomsday Tracker",
     description:
       "An end-of-the-world themed tracker that follows natural disaster data, COVID-19 data and global warming data",
@@ -10,7 +14,7 @@ const projects = [
   },
   {
     id: 2,
-    image: lkjhl,
+    image: dose,
     projectTitle: "A Daily Dose of Code",
     description:
       "An app that gives coders daily challenges to practice their skills",
@@ -19,7 +23,7 @@ const projects = [
   },
   {
     id: 3,
-    image: lkjhl,
+    image: weather,
     projectTitle: "Weather App",
     description:
       "An app that allows users to view the weather outlook for several cities",
