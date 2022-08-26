@@ -3,7 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import "../Portfolio/Portfolio.css";
 import AppCard from "../../components/AppCard/AppCard";
 import { Row, Col } from "react-bootstrap";
-import projects from "../../../Projects";
+import projects from "../../Projects";
 
 function Portfolio() {
   return (
