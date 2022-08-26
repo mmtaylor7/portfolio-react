@@ -7,7 +7,6 @@ import {
   MDBCardText,
   MDBCardImage,
   MDBBtn,
-  MDBRipple,
 } from "mdb-react-ui-kit";
 
 export default function AppCard() {
