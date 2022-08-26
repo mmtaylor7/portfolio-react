@@ -32,7 +32,8 @@ export default function AppCard() {
       <MDBCardBody>
         <MDBCardTitle>App title</MDBCardTitle>
         <MDBCardText>description of the app</MDBCardText>
-        <MDBBtn href="#">Button</MDBBtn>
+        <MDBBtn href="#">Website</MDBBtn>
+        <MDBBtn href="#">GitHub</MDBBtn>
       </MDBCardBody>
     </MDBCard>
   );
