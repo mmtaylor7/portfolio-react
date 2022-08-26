@@ -31,3 +31,5 @@ const projects = [
     website: "https://mmtaylor7.github.io/Weather-Dashboard/",
   },
 ];
+
+export default projects;
