@@ -12,8 +12,11 @@ export default function Footer() {
         <div
           className="text-center p-3 footer-text"
           onClick={() =>
-            externalLink("www.linkedin.com/in/mary-margaret-taylor-12985117b")
+            externalLink(
+              "https://linkedin.com/in/mary-margaret-taylor-12985117b"
+            )
           }
+          style={{ cursor: "pointer" }}
         >
           - LinkedIn -
         </div>
@@ -21,6 +24,7 @@ export default function Footer() {
         <div
           className="text-center p-3 footer-text"
           onClick={() => externalLink("https://github.com/mmtaylor7")}
+          style={{ cursor: "pointer" }}
         >
           - GitHub -
         </div>
@@ -31,6 +35,7 @@ export default function Footer() {
               "mailto:taylor.marymargaret@gmail.com?subject=Subject&body=Body%20goes%20here"
             )
           }
+          style={{ cursor: "pointer" }}
         >
           - Email -
         </div>
