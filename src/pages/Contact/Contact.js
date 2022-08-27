@@ -11,7 +11,7 @@ class SimpleForm extends Component {
       <Container>
         <div className="contact-me">Contact Me</div>
         <Form
-          action="https://formsubmit.co/your@email.com"
+          action="https://formsubmit.co/taylor.marymargaret@gmail.com"
           method="POST"
           className="form-bg"
         >
