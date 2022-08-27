@@ -10,11 +10,7 @@ class SimpleForm extends Component {
     return (
       <Container>
         <div className="contact-me">Contact Me</div>
-        <Form
-          action="https://formsubmit.co/taylor.marymargaret@gmail.com"
-          method="POST"
-          className="form-bg"
-        >
+        <Form className="form-bg">
           <Form.Group controlId="form.Name">
             <Form.Label className="form-titles">Name</Form.Label>
             <Form.Control
@@ -37,7 +33,7 @@ class SimpleForm extends Component {
           </Form.Group>
         </Form>
         <div className="d-grid gap-2 button-flex">
-          <Button type="submit" className="submit-button" size="lg">
+          <Button className="submit-button" size="lg">
             Send Message
           </Button>
         </div>
