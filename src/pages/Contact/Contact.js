@@ -10,7 +10,11 @@ class SimpleForm extends Component {
     return (
       <Container>
         <div className="contact-me">Contact Me</div>
-        <Form className="form-bg">
+        <Form
+          action="https://formsubmit.co/your@email.com"
+          method="POST"
+          className="form-bg"
+        >
           <Form.Group controlId="form.Name">
             <Form.Label className="form-titles">Name</Form.Label>
             <Form.Control

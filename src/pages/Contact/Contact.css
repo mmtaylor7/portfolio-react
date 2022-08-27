@@ -51,6 +51,10 @@
   background-color: #3a8e3d;
 }
 
+.submit-button:active {
+  background-color: #3a8e3d;
+}
+
 .input-size {
   height: 50px;
   font-size: 27px;

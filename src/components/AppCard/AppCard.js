@@ -8,6 +8,7 @@ import {
   MDBCardImage,
   MDBBtn,
 } from "mdb-react-ui-kit";
+import { Button } from "react-bootstrap";
 
 // {
 //   project: {
@@ -44,12 +45,12 @@ export default function AppCard(props) {
         <MDBCardText className="app-description">
           {props.project.description}
         </MDBCardText>
-        <MDBBtn href={props.project.website} className="project-buttons">
+        <Button href={props.project.website} className="project-buttons">
           Website
-        </MDBBtn>
-        <MDBBtn href={props.project.github} className="project-buttons">
+        </Button>
+        <Button href={props.project.github} className="project-buttons">
           GitHub
-        </MDBBtn>
+        </Button>
       </MDBCardBody>
     </MDBCard>
   );

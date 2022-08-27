@@ -42,3 +42,7 @@
 .project-buttons:hover {
   background-color: #3a8e3d;
 }
+
+.project-buttons:active {
+  background-color: #3a8e3d;
+}
