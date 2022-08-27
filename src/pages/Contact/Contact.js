@@ -37,7 +37,7 @@ class SimpleForm extends Component {
           </Form.Group>
         </Form>
         <div className="d-grid gap-2 button-flex">
-          <Button className="submit-button" size="lg">
+          <Button type="submit" className="submit-button" size="lg">
             Send Message
           </Button>
         </div>
