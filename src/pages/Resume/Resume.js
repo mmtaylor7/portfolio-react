@@ -6,7 +6,7 @@ export default function Resume() {
     <div>
       <div className="page-title">Resume</div>
       <div className="under-construction">
-        This page is under construction. Thank you for your patience!
+        This page is under construction. <br></br> Thank you for your patience!
       </div>
     </div>
   );
