@@ -4,13 +4,13 @@
 .app-card {
   width: 640px;
   height: 100%;
-  background-color: #3a8e3d;
+  background-color: #fefef2cd;
   justify-content: center;
   align-items: center;
   border-style: solid;
   border-width: 10px;
   border-radius: 30px;
-  border-color: #fefef2;
+  border-color: #024d3e;
   padding: 25px;
   margin: 5px 5px 5px 5px;
 }
@@ -25,7 +25,7 @@
 .app-title {
   font-family: "Bungee", cursive;
   font-size: 38px;
-  color: #fefef2;
+  color: #024d3e;
   font-weight: bold;
 }
 
@@ -42,8 +42,7 @@
   font-family: "Bungee", cursive;
   font-size: 25px;
   border-style: solid;
-  border-width: 5px;
-  border-color: #fefef2;
+  border-color: #024d3e;
   border-radius: 5px;
   margin-top: 13px;
   margin-left: 8px;
@@ -51,9 +50,7 @@
 }
 
 .project-buttons:hover {
-  background-color: #faaa1c;
-  border-style: solid;
-  border-color: #fefef2;
+  background-color: #3a8e3d;
   transform: scale(1.1);
 }
 
