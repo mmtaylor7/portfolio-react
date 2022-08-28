@@ -11,14 +11,21 @@
 .headshot {
   max-width: 100%;
   height: auto;
+  padding-top: 30px;
 }
 
-.page-title-center .page-title-style {
+.page-title-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.page-title-style {
   font-family: "Bungee", cursive;
-  font-size: 75px;
+  font-size: 90px;
   color: #faaa1c;
   /* background-color: #fefef2; */
-  background-color: #fefef2a9;
+  background-color: #fefef2cb;
 }
 
 .about-text {
