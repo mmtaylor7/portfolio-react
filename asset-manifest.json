@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/%7Bportfolio-react%7D/static/css/main.3ba21268.css",
+    "main.js": "/%7Bportfolio-react%7D/static/js/main.5f1072a7.js",
+    "static/js/787.aeca62f9.chunk.js": "/%7Bportfolio-react%7D/static/js/787.aeca62f9.chunk.js",
+    "static/media/Headshot.png": "/%7Bportfolio-react%7D/static/media/Headshot.a8d103fda47e1f540643.png",
+    "static/media/flower-bg.jpg": "/%7Bportfolio-react%7D/static/media/flower-bg.10f057b7699172169457.jpg",
+    "static/media/doomsday.png": "/%7Bportfolio-react%7D/static/media/doomsday.8ac7f795e0383f351b5b.png",
+    "static/media/weather.png": "/%7Bportfolio-react%7D/static/media/weather.e449bf398dc6239a26bd.png",
+    "static/media/dose.png": "/%7Bportfolio-react%7D/static/media/dose.4c74601e9561caaa109c.png",
+    "index.html": "/%7Bportfolio-react%7D/index.html",
+    "main.3ba21268.css.map": "/%7Bportfolio-react%7D/static/css/main.3ba21268.css.map",
+    "main.5f1072a7.js.map": "/%7Bportfolio-react%7D/static/js/main.5f1072a7.js.map",
+    "787.aeca62f9.chunk.js.map": "/%7Bportfolio-react%7D/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ba21268.css",
+    "static/js/main.5f1072a7.js"
+  ]
+}
