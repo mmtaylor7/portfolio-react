@@ -8,11 +8,13 @@ import projects from "../../Projects";
 function Portfolio() {
   return (
     <div>
-      <div className="page-title">Portfolio</div>
-      <Row>
+      <div className="title-container">
+        <div className="page-title">Portfolio</div>
+      </div>
+      <Row className="project-row">
         {projects.map((project) => {
           return (
-            <Col>
+            <Col className="card-center">
               <AppCard project={project}></AppCard>
             </Col>
           );

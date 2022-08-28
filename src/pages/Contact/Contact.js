@@ -9,7 +9,9 @@ class SimpleForm extends Component {
   render() {
     return (
       <Container>
-        <div className="contact-me">Contact Me</div>
+        <div className="title-div">
+          <div className="contact-me">Contact Me</div>
+        </div>
         <Form className="form-bg">
           <Form.Group controlId="form.Name">
             <Form.Label className="form-titles">Name</Form.Label>

@@ -13,7 +13,7 @@
   height: auto;
 }
 
-.page-title {
+.page-title-center .page-title-style {
   font-family: "Bungee", cursive;
   font-size: 75px;
   color: #faaa1c;
@@ -24,7 +24,8 @@
 .about-text {
   background-color: #fefef2a9;
   color: #024d3e;
-  font-size: 33px;
+  font-size: 43px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-family: "Signika Negative", sans-serif;
+  width: 90%;
 }

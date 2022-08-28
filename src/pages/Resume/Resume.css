@@ -1,9 +1,26 @@
+.resume-title-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .page-title {
   font-family: "Bungee", cursive;
-  font-size: 90px;
+  font-size: 83px;
   color: #faaa1c;
   /* background-color: #fefef2; */
-  background-color: #fefef2cd;
+  background-color: #fefef2d0;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 8px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.construction-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .under-construction {
@@ -13,4 +30,6 @@
   /* background-color: #fefef2; */
   background-color: #fefef2cd;
   margin-left: 80px;
+  height: fit-content;
+  width: fit-content;
 }

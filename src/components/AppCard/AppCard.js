@@ -30,7 +30,12 @@ export default function AppCard(props) {
         rippleTag="div"
         className="bg-image hover-overlay"
       > */}
-      <MDBCardImage src={props.project.image} fluid alt="..." />
+      <MDBCardImage
+        src={props.project.image}
+        fluid
+        alt="..."
+        className="image-style zoom"
+      />
       <a>
         <div
           className="mask"

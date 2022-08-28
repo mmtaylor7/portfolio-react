@@ -4,9 +4,14 @@ import "../Resume/Resume.css";
 export default function Resume() {
   return (
     <div>
-      <div className="page-title">Resume</div>
-      <div className="under-construction">
-        This page is under construction. <br></br> Thank you for your patience!
+      <div className="resume-title-div">
+        <div className="page-title">Resume</div>
+      </div>
+      <div className="construction-center">
+        <div className="under-construction">
+          This page is under construction. <br></br> Thank you for your
+          patience!
+        </div>
       </div>
     </div>
   );
