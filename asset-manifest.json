@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.9f08ff22.css",
+    "main.js": "/portfolio-react/static/js/main.1868a5d9.js",
+    "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
+    "static/media/Headshot.png": "/portfolio-react/static/media/Headshot.a8d103fda47e1f540643.png",
+    "static/media/flower-bg.jpg": "/portfolio-react/static/media/flower-bg.10f057b7699172169457.jpg",
+    "static/media/doomsday.png": "/portfolio-react/static/media/doomsday.8ac7f795e0383f351b5b.png",
+    "static/media/weather.png": "/portfolio-react/static/media/weather.e449bf398dc6239a26bd.png",
+    "static/media/dose.png": "/portfolio-react/static/media/dose.4c74601e9561caaa109c.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.9f08ff22.css.map": "/portfolio-react/static/css/main.9f08ff22.css.map",
+    "main.1868a5d9.js.map": "/portfolio-react/static/js/main.1868a5d9.js.map",
+    "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f08ff22.css",
+    "static/js/main.1868a5d9.js"
+  ]
+}
