@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+.navSpacing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #fefef2b6;
+  padding-bottom: 10px;
+}
+.navBarFont {
+  margin: 27px 27px 27px 27px;
+  font-family: "Bungee", cursive;
+  font-size: 35px;
+  color: #fe4a49;
+}
+
+.navBarFont:hover {
+  color: #942828;
+}
+
+/* #fefef2; */
