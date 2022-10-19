@@ -34,11 +34,11 @@ const projects = [
   {
     id: 4,
     image: bids,
-    projectTitle: "Weather App",
+    projectTitle: "DevBids",
     description:
-      "An app that allows users to view the weather outlook for several cities",
-    github: "https://github.com/mmtaylor7/Weather-Dashboard",
-    website: "https://mmtaylor7.github.io/Weather-Dashboard/",
+      "An entertainment app allowing users to track doomsday statistics",
+    github: "https://github.com/mmtaylor7/devbids-contractor-Gp4",
+    website: "https://devbids-gp4.herokuapp.com/",
   },
 ];
 
