@@ -1,6 +1,7 @@
 import doomsday from "./pages/assets/doomsday.png";
 import dose from "./pages/assets/dose.png";
 import weather from "./pages/assets/weather.png";
+import bids from "./pages/assets/bids.png";
 
 const projects = [
   {
@@ -24,6 +25,15 @@ const projects = [
   {
     id: 3,
     image: weather,
+    projectTitle: "Weather App",
+    description:
+      "An app that allows users to view the weather outlook for several cities",
+    github: "https://github.com/mmtaylor7/Weather-Dashboard",
+    website: "https://mmtaylor7.github.io/Weather-Dashboard/",
+  },
+  {
+    id: 4,
+    image: bids,
     projectTitle: "Weather App",
     description:
       "An app that allows users to view the weather outlook for several cities",
